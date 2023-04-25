@@ -1,4 +1,4 @@
-body, ul, li, p{
+body, ul, li, P{
     margin: 0px;
     padding: 0px;
     list-style: none;
@@ -7,21 +7,82 @@ body, ul, li, p{
 }
 
 .logo{
-    width: 200px;
+    width: 250px;
 }
+
 a{
     text-decoration: none;
-    color: black;
+    color: black ;
 }
+
 .header{
-    background-color: blueviolet;
+    background-color: violet;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
     align-items: center;
-padding: 20px;
+    padding: 20px;
 }
 
 .menu{
+    display: flex;
+}
+   
+.menu li  {
     margin-left: 10px;
+}
+    
+.menu li a {
+    display:block;
+    padding: 10px;
+    background-color: rgb(163, 59, 163);
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+.paragrafo {
+    padding: 7px;
+    text-align: justify;
+}
+
+.imagem {
+    height: auto;
+    width: 250px;
+}
+
+.flex{
+    min-width: 100vh;
+    background-color: rgb(170, 168, 168);
+    display: flex;
+    flex-direction: column;
+}
+
+.item{
+    border: 5px solid black;
+    margin: 10px;
+    display: flex;
+    align-items: center;
+}
+
+.footer {
+    background-color: violet;
+    padding: 15px;
+    color: black;
+    font-size: 30px;
+}
+
+.redesSociais {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.redeLogo {
+    margin: 10px;
+    padding: 5px;
+    width: 30px;
+    height: auto;
 }
